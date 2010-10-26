@@ -1,0 +1,167 @@
+/* globals */
+* { padding: 0; margin: 0; }
+
+body {
+    font-family: 	"Lucida Grande";
+    font-size:		90%;
+    background-color:	#efefef;
+    color: #333;	
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px dotted #222;
+}
+
+a:hover { background: #ccc; color: #000;}
+
+#wrapper {
+	background: url("../images/gradient.png") repeat-x scroll left top #F4F5F5;
+	padding-bottom: 3em;
+	padding-top: 3em;
+}
+
+#header {
+	border-bottom:1px solid #ddd;
+	height:120px;
+}
+
+#header, #footer {
+	background: none repeat scroll 0 0 #F9F9F9;
+}
+
+#header .container {
+	position:relative;
+}
+
+#header #logo {
+	left: 0;
+	position: absolute;
+	top: 25px;
+	width: 233px;
+}
+
+#header img {
+	padding: 5px;
+}
+
+
+#footer {
+	border-top:1px solid #DDDDDD;
+	color:#888888;
+	font-size:0.75em;
+	padding:2em;
+	text-align:center;
+}
+
+/* navbar */
+#navbar {
+	position: absolute;
+	right: 0;
+	top: 60px;
+}
+
+#navbar a {
+	border: none;
+	border-left:1px solid #DDDDDD;
+	font-size:1em;
+	padding:0.5em 1em;
+	text-decoration:none;
+	color:		#7E2217; 
+	background: none;
+}
+
+#navbar a.first {
+	border:0 none;
+}
+
+#navbar a:hover { text-decoration: none; }
+#navbar a:visited { text-decoration: none; }
+#navbar a:active { text-decoration: none; }
+#navbar a.active { 
+   border-bottom: 3px solid #222;
+}
+
+.large {
+	font-size: 1.2em;
+	line-height:1.5;
+}
+
+.small {
+	font-size: 90%;
+	color: #555;
+	line-height: 1.2;
+}
+
+span.copyright {
+	text-shadow: 1px 1px 0 #FFFFFF;
+	color: #999;
+}
+
+span.high {
+	color: #7E2217;
+}
+
+.secheader {
+	font-size: 20px;
+	text-shadow: #fff 0px 1px 0;
+	color: #C17878;
+	margin-top: 20px;
+}
+
+.horrule {
+	margin-top: 30px;
+  	border-top: 1px solid #DDDDDD;
+	clear: both;
+}
+
+#os_logo {
+	height: 100px;
+	padding: 10px;
+}
+
+.sidetext {
+	border-left: 4px solid #ddd;
+	padding-left: 4px;	
+}
+
+#latest_download {
+	padding: 20px;
+	background: #eee;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	text-align: center;
+	border: 1px dotted #ddd;
+}
+
+#latest_head {
+	font-size: 16px;
+	text-shadow: #fff 0px 1px 0;
+	color: maroon;
+ 	margin: 0; 
+	font-style: italic;
+}
+
+#latest_link {
+	background: #ccc;
+	border: none;
+	padding: 3px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#latest_link a:hover {
+	background: none;
+}
+
+#maintainers {
+	margin-top: 20px;
+}
+
+#maintainers ul {
+	border-left: 4px solid #ddd;
+	padding-left: 4px;	
+	list-style-type: none;
+}
+
