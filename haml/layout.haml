@@ -1,0 +1,21 @@
+!!!
+%html
+  %head
+    %title= 's4: distributed stream computing platform'
+    %meta{"http-equiv" => "Content-Type", :content=>"text/html; charset=utf-8"}
+    %link{:rel=>"stylesheet", :type=>"text/css", :href=>"css/blueprint/screen.css", :media=>"screen" }
+    %link{:rel=>"stylesheet", :type=>"text/css", :href=>"css/blueprint/print.css", :media=>"print" }
+    /[if lt IE 9]
+      %link{:rel=>"stylesheet", :type=>"text/css", :href=>"css/blueprint/ie.css", :media=>"screen" }
+    %link{:rel=>"stylesheet", :type=>"text/css", :href=>"css/style.css"}
+  %body
+    #header
+      .container
+        #logo
+          %img{:src=>'images/s4.png'}
+        #navbar= render_haml_partial("haml/nav.haml", array(), "haml/cache")
+    #wrapper
+      #container{:class=>"container"}= render_haml_partial("haml/$page.haml", array(), "haml/cache")
+    #footer
+      .container
+        %span{:class=>'copyright'}= "copyright 2010 the s4 project"

@@ -1,0 +1,5 @@
+- $id = key($nav_bar)
+- $url = array_shift($nav_bar)
+  %a{:href=>"$url", :class=>'first'}= $id
+- foreach($nav_bar as $id => $url)
+  %a{:href=>"$url"}= $id

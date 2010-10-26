@@ -1,0 +1,66 @@
+#main{:class=>"span-18 colborder"}
+  #about{:class=>"span-18 last"}
+
+    %p{:class=>'large'}= "S4 is a <span class='high'>general-purpose</span>, <span class='high'>distributed</span>, <span class='high'>scalable</span>, partially <span class='high'>fault-tolerant</span>, <span class='high'>pluggable</span> platform that allows programmers to easily develop applications for processing continuous unbounded streams of data"
+
+    .horrule
+
+    #sec_motivation{:class=>"span-9"}
+      %h2{:class=>"secheader"}= "motivation"
+      %p= "S4 fills the gap between complex proprietary systems and batch-oriented open source computing platforms. We aim to develop a high performance computing platform that hides the complexity inherent in parallel processing system from the application programmer."
+    #sec_implementation{:class=>"span-9 last"}
+      %h2{:class=>"secheader"}= "implementation"
+      %p= "The core platform is written in <span class='high'>Java</span>. The drivers to read from and write to the platform can be implemented in any language making it possible to integrate with legacy data sources and systems."
+
+    .horrule
+    
+    #sec_osi{:class=>"span-18 last"}
+      %h2{:class=>"secheader"}= "open source"
+      #os_logo{:class=>"span-2"}
+        %img{:src=>"images/osi.png", :width=>'75', :height=>'88'}
+      #os_desc{:class=>"span-14 last"}
+        %p{:style=>"padding-top:10px; padding-left:10px;"}= "S4 is released under the Open Source Apache 2.0 license, which allows the user of the software the freedom to use the software for any purpose, to distribute it, to modify it, and to distribute modified versions of the software, under the terms of the license."
+
+    .horrule
+
+    #sec_overview{:class=>"span-18 last"}
+
+      %h2{:class=>"secheader"}= "overview"
+      #ov_1{:class=>"span-6"}
+        %h4{:class=>"subsecheader"}= "proven"
+        %p= "S4 has been deployed in production systems at Yahoo! to process thousands of queries per second"
+      #ov_2{:class=>"span-6"}
+        %h4{:class=>"subsecheader"}= "decentralized"
+        %p= "All nodes are symmetric with no centralized service and no single point of failure. This greatly simplifies deployments and cluster configuration changes"
+      #ov_3{:class=>"span-6 last"}
+        %h4{:class=>"subsecheader"}= "scalable"
+        %p= "Throughput increases linearly as additional nodes are added to the cluster. There is no predefined limit on the number of nodes that can be supported"
+
+      #ov_4{:class=>"span-6"}
+        %h4{:class=>"subsecheader"}= "extensible"
+        %p= "Applications can easily be written and deployed using a simple API. Many basic applications for stream processing are available out of the box and more are being written"
+      #ov_5{:class=>"span-6"}
+        %h4{:class=>"subsecheader"}= "partial fault-tolerance"
+        %p= "S4 hides all cluster management tasks using a communication layer built on top of  <a href='http://hadoop.apache.org/zookeeper'>ZooKeeper</a>, a distributed, open-source coordination service for distributed applications. When a server in the cluster fails, a stand-by server is automatically activated to take over the tasks. The state of the server may be lost but quickly recovered from new input data"
+      #ov_6{:class=>"span-6 last"}
+        %h4{:class=>"subsecheader"}= ""
+        %p= ""
+
+
+#sidebar{:class=>"span-5 last"}
+  #quickbar
+    #latest_download
+      #latest_head= "latest version"
+      #latest_link
+        %a{:href=>"http://github.com/s4/core", :style=>"border: none;"}= "s4-core-1.0.tar.gz"
+    #maintainers
+      %h2{:class=>"secheader"}= "maintainers"
+      %p{:class=>"small"}= "Yahoo! made the S4 source code freely available to the community at large in October 2010 under the Apache License, Version 2.0" 
+      %p{:class=>"small"}= "S4 is maintained by the following volunteers:"
+      %ul
+        %li= email("ak", "s4.io", "Anand Kesari")
+        %li= email("an", "s4.io", "Anish Nair")
+        %li= email("leo", "s4.io", "Leo Neumeyer")
+        %li= email("br", "s4.io", "Bruce Robbins")
+      
+
