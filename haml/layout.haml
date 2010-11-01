@@ -12,7 +12,8 @@
     #header
       .container
         #logo
-          %img{:src=>'images/s4.png'}
+          %a{:href=>'./'}
+            %img{:src=>'images/mp.png', :width=>"150"}
         #navbar= render_haml_partial("haml/nav.haml", array(), "haml/cache")
     #wrapper
       #container{:class=>"container"}= render_haml_partial("haml/$page.haml", array(), "haml/cache")

@@ -17,7 +17,7 @@ a {
 a:hover { background: #ccc; color: #000;}
 
 #wrapper {
-	background: url("../images/gradient.png") repeat-x scroll left top #F4F5F5;
+	background: url("http://s4.io/images/gradient.png") repeat-x scroll left top #F4F5F5;
 	padding-bottom: 3em;
 	padding-top: 3em;
 }
@@ -40,6 +40,15 @@ a:hover { background: #ccc; color: #000;}
 	position: absolute;
 	top: 25px;
 	width: 233px;
+}
+
+#logo a {
+	border: none;
+}
+
+#logo a:hover{
+	text-decoration: none;	
+	background: none;
 }
 
 #header img {
@@ -126,7 +135,7 @@ span.high {
 	padding-left: 4px;	
 }
 
-#latest_download {
+#download {
 	padding: 20px;
 	background: #eee;
 	-moz-border-radius: 10px;
@@ -136,19 +145,25 @@ span.high {
 }
 
 #latest_head {
-	font-size: 16px;
+	font-size: 14px;
 	text-shadow: #fff 0px 1px 0;
-	color: maroon;
  	margin: 0; 
-	font-style: italic;
+	color: #7E2217;
 }
 
 #latest_link {
 	background: #ccc;
 	border: none;
 	padding: 3px;
+	margin-top: 10px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+}
+
+#disclaimer {
+	color: #555;
+	margin-top: 30px;
+	font-size: 80%;
 }
 
 #latest_link a:hover {
@@ -159,9 +174,12 @@ span.high {
 	margin-top: 20px;
 }
 
-#maintainers ul {
+ul.greybar {
 	border-left: 4px solid #ddd;
-	padding-left: 4px;	
+	padding-left: 10px;	
 	list-style-type: none;
 }
 
+#twitter a {
+	border: none;
+}

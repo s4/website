@@ -8,10 +8,11 @@ if(isset($_GET['p'])) {
 
 $nav_bar = array(
 	"home" => "./",
-	"docs" => "?p=docs",
+	"docs" => "http://wiki.s4.io",
 	"downloads" => "http://github.com/s4",
-	"contribute" => "?p=contrib",
-	"demo" => "?p=demo",
+	"get involved" => "?p=contrib",
+	"team" => "?p=team",
+#	"demo" => "?p=demo",
 	)
 ;
 
@@ -31,8 +32,7 @@ function email($u, $d, $l) {
 		        document.write('<a class=\"email\" href=\"mailto:\" + name + \"@\" + domain + \">');
 		        document.write(label + '</a>');
 		  // -->
-		  </script> 
-";
+		  </script>"; 
 }
 
 ?>

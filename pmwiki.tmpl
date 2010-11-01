@@ -1,0 +1,80 @@
+<!DOCTYPE html 
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>$WikiTitle | {$Group} / {$Title} $ActionTitle</title>
+  <meta http-equiv='Content-Style-Type' content='text/css' />
+  <link rel="stylesheet" type="text/css" href="http://s4.io/css/blueprint/screen.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="http://s4.io/css/blueprint/print.css" media="print" />
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="http://s4.io/css/blueprint/ie.css" media="screen" />
+  <![endif]-->
+  <link rel='stylesheet' href='http://s4.io/css/style.css' type='text/css' />
+  <link rel='stylesheet' href='http://s4.io/css/wiki.css' type='text/css' />
+  <!--HTMLHeader-->
+</head>
+<body>
+
+<!--PageHeaderFmt-->
+<div id='header'>
+  <div id='wikiheader' class='container'>
+    <div id='logo' class='span-10'>
+      <a href='{$ScriptUrl}'><img src='http://s4.io/images/s4.png' alt='$WikiTitle' border='0' width="150"/></a>
+    </div>
+    <div id='search' class='span-10 last'>
+      <form action='{$ScriptUrl}'>
+        <span class='headnav'><a href='{$ScriptUrl}/$[{$Group}/RecentChanges]'
+          accesskey='$[ak_recentchanges]'>$[Recent Changes]</a> -</span>
+          <input type='hidden' name='n' value='{$FullName}' />
+          <input type='hidden' name='action' value='search' />
+          <a href='{$ScriptUrl}/$[{$SiteGroup}/Search]'>$[Search]</a>:
+          <input type='text' name='q' value='' class='inputbox searchbox' />
+          <input type='submit' class='inputbutton searchbutton'
+          value='$[Go]' />
+      </form>
+    </div>
+  </div>
+</div>
+<!--/PageHeaderFmt-->
+
+<div id='wrapper'>
+  <div class="container" id='wikimd'>
+
+    <!--PageLeftFmt-->
+    <div id='wikileft' class='span-3 colborder'>
+      <!--wiki:{$Group}.SideBar {$SiteGroup}.SideBar-->
+    </div>
+    <!--/PageLeftFmt-->
+
+    <div id='wikibody' class='span-20 last'>
+      <!--PageTitleFmt-->
+      <div id='wikititle' class='span-10'>
+        <div class='pagegroup'><a href='{$ScriptUrl}/{$Group}'>{$Group}</a> /</div>
+        <h1 class='pagetitle'>{$Title}</h1>
+      </div>
+      <!--PageActionFmt-->
+      <div id='wikicmds' class='span-8 last'><!--wiki:{$Group}.PageActions {$SiteGroup}.PageActions--></div>
+      <div id='wikitextwrapper' class='span-20 last'>
+        <!--PageText-->    
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--PageFooterFmt-->
+<div id="footer">
+  <div id='wikifoot' class='container'>
+    <div class='footnav'>
+      <a rel="nofollow" href='{$PageUrl}?action=edit'>$[Edit]</a> -
+      <a rel="nofollow" href='{$PageUrl}?action=diff'>$[History]</a> -
+      <a rel="nofollow" href='{$PageUrl}?action=print' target='_blank'>$[Print]</a> -
+      <a href='{$ScriptUrl}/$[{$Group}/RecentChanges]'>$[Recent Changes]</a> -
+      <a href='{$ScriptUrl}/$[{$SiteGroup}/Search]'>$[Search]</a>
+    </div>
+    <div class='lastmod'>$[Page last modified on {$LastModified}]</div>
+  </div>
+</div>
+  <!--HTMLFooter-->
+</body>
+</html>

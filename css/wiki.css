@@ -1,0 +1,31 @@
+a {
+	color: #7E2217;
+	text-decoration: none;
+	border: none;
+}
+
+#search {
+	position: absolute;
+	right: 0;
+	top: 60px;
+}
+
+#wikicmds { 
+	padding: 5px;
+	background: #ccc;
+	color: #222;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	text-align: center;
+	border: 1px solid #ddd;
+	right: 0;
+}
+
+#wikicmds ul { list-style:none; margin:0px; padding:0px; border: none;}
+#wikicmds li { display:inline; margin:0px 5px; }
+#wikicmds li a { text-decoration:none; color:black; border:none; }
+
+#wikiedit textarea {
+	width: 100%;
+	height: 400px;	
+}
