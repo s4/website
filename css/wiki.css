@@ -30,3 +30,23 @@ a {
 	width: 100%;
 	height: 400px;	
 }
+
+.pagetitle {
+	font-size: 2em;
+}
+
+#wikileft ul {
+	border-left: 4px solid #ddd;
+	padding-left: 10px;	
+	list-style-type: none;
+}
+
+h2 {
+	font-size: 20px;
+	text-shadow: #fff 0px 1px 0;
+	color: #C17878;
+}
+
+.searchbutton {
+	margin-left: 10px;
+}

@@ -5,13 +5,13 @@
 <head>
   <title>$WikiTitle | {$Group} / {$Title} $ActionTitle</title>
   <meta http-equiv='Content-Style-Type' content='text/css' />
-  <link rel="stylesheet" type="text/css" href="http://s4.io/css/blueprint/screen.css" media="screen" />
-  <link rel="stylesheet" type="text/css" href="http://s4.io/css/blueprint/print.css" media="print" />
+  <link rel="stylesheet" type="text/css" href="$PubDirUrl/css/blueprint/screen.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="$PubDirUrl/css/blueprint/print.css" media="print" />
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="http://s4.io/css/blueprint/ie.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="$PubDirUrl/css/blueprint/ie.css" media="screen" />
   <![endif]-->
-  <link rel='stylesheet' href='http://s4.io/css/style.css' type='text/css' />
-  <link rel='stylesheet' href='http://s4.io/css/wiki.css' type='text/css' />
+  <link rel='stylesheet' href='$PubDirUrl/css/style.css' type='text/css' />
+  <link rel='stylesheet' href='$PubDirUrl/css/wiki.css' type='text/css' />
   <!--HTMLHeader-->
 </head>
 <body>
@@ -19,10 +19,10 @@
 <!--PageHeaderFmt-->
 <div id='header'>
   <div id='wikiheader' class='container'>
-    <div id='logo' class='span-10'>
+    <div id='logo' class='span-8'>
       <a href='{$ScriptUrl}'><img src='http://s4.io/images/s4.png' alt='$WikiTitle' border='0' width="150"/></a>
     </div>
-    <div id='search' class='span-10 last'>
+    <div id='search' class='span-12 last'>
       <form action='{$ScriptUrl}'>
         <span class='headnav'><a href='{$ScriptUrl}/$[{$Group}/RecentChanges]'
           accesskey='$[ak_recentchanges]'>$[Recent Changes]</a> -</span>

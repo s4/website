@@ -174,9 +174,12 @@ span.high {
 	margin-top: 20px;
 }
 
-ul.greybar {
+.greybar {
 	border-left: 4px solid #ddd;
 	padding-left: 10px;	
+}
+
+ul.greybar {
 	list-style-type: none;
 }
 
@@ -189,4 +192,14 @@ ul.greybar {
 	border: 1px solid #ddd;
 }
 
+input[type="text"], input[type="password"], input.text, input.title, textarea, select {
+    margin: 1em 0;
+}
 
+input[type="text"], input[type="password"], input.text, input.title, textarea {
+	padding: 5px;
+	font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #bbb;
+	color: #222;
+}
