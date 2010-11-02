@@ -1,6 +1,67 @@
-#main{:class=>"span-18 colborder"}
-  %h2{:class=>"secheader"}= "how to contribute"
-  %h4= "Getting the source code"
-  %p= "Look at Zookeeper and HBase"
-  %h4= "Making changes"
-  %h4= "Contributing your work"
+#main{:class=>"span-19 colborder"}
+  / collaboration
+  %h2{:class=>"secheader"}= "collaboration model"
+  %p= "The S4 project adopts the <span class='high'>fork+pull</span> model using git. This means developers work on forks of the S4 repo (i.e. their own clones of it). The S4 Team then merges these changes into the main S4 repositories when requested to do so by other developers."
+  %p= "GitHub has a good description of this model <a href='http://help.github.com/pull-requests/'>here</a>."
+  / version control
+  %h2{:class=>"secheader"}= "version control"
+  %p= "S4 is hosted on <b><a href='http://github.com'>GitHub</a></b>. The project is divided into 3 components"
+  .tabular
+    %table
+      %tr
+        %th= "Component"
+        %th= "Repository"
+        %th= "Read-only access"
+        %th= "Issue Tracker"
+      %tr
+        %td= "Core Classes"
+        %td= "<a href='http://github.com/s4/core'>http://github.com/s4/core</a>"
+        %td= "git://github.com/s4/core.git"
+        %td= "<a href='http://github.com/s4/core/issues'>core/issues</a>"
+      %tr
+        %td= "Communication Layer"
+        %td= "<a href='http://github.com/s4/comm'>http://github.com/s4/comm</a>"
+        %td= "git://github.com/s4/comm.git"
+        %td= "<a href='http://github.com/s4/comm/issues'>comm/issues</a>"
+      %tr
+        %td= "Example Applications"
+        %td= "<a href='http://github.com/s4/examples'>http://github.com/s4/examples</a>"
+        %td= "git://github.com/s4/examples.git"
+        %td= "<a href='http://github.com/s4/examples/issues'>examples/issues</a>"
+  %p= "If you are new to git, <a href='http://gitref.org/'>gitref.org</a> has a good tutorial."
+  / submission guidelines
+  %h2{:class=>"secheader"}= "submission guidelines"
+  %p= "Before you start, send a message on the S4 <a href='http://groups.google.com/group/s4-project/topics'>mailing list</a>, or create an issue in github, describing the proposed changes."
+  %p= "First <a href='http://help.github.com/forking/'>fork</a> the repository containing the code you want to change. Then clone this repository in your development environment."
+  %p= "Make changes to the code, following these conventions:"
+  %ol
+    %li= "All public classes, interfaces, and methods should have informative Javadoc comments. Avoid trivial comments."
+      %ul
+        %li= "BAD: <span class='high'>getCondensedLength()</span>: Gets condensed length."
+        %li= "BETTER: <span class='high'>getCondensedLength()</span>: Number of characters in the string, excluding non alpha-numeric characters."
+    %li= "Code Formatting"  
+      %ul
+        %li= "<b>New</b> Java source files should be formatted according to Sun's conventions with these exceptions: "
+          %ul
+            %li= "Indent four spaces per level"
+            %li= "Use spaces for indentation, not tabs. Tabs tend to break formatting in other editors. Instructions for doing this in eclipse can be found <a href='http://www.cis.upenn.edu/~matuszek/cit594-2004/Pages/eclipse-faq.html#soft_tabs'>here</a>."
+        %li= "If you are editing an <b>existing</b> file, mimic the conventions used in that file. "  
+    %li= "Don't modify formatting, indentation, etc of lines of code that are not part of the change that you are making. This makes code diffs hard to understand."
+      %ul
+        %li= "If you must change formatting in a file, do that as a separate commit."
+  / submitting changes
+  %h2{:class=>"secheader"}= "submitting changes"
+  %p= "Once you are done with changes in your clone of the repository, push them to your forked repository."
+  %p= "Then, send us a <a href='http://help.github.com/pull-requests/'>pull request</a>. This lets the rest of us know that you are done with your changes. Other developers may have comments, based on which you may make more changes to your fork."
+  %p= "After this, the S4 Team will merge your changes into the main S4 repository."
+  %p= "Thank you for making S4 better!"
+
+#contrib_sidebar{:class=>"span-4 last"}
+  #participate
+    %h2{:class=>"secheader"}= "participate"
+    %ul{:class=>'large greybar'}
+      %li= "Join the <a href='http://groups.google.com/group/s4-project/topics'>forum</a>"
+    
+  #twitter
+    %a{:href=>"http://www.twitter.com/s4project"}
+      %img{:src=>"http://twitter-badges.s3.amazonaws.com/follow_us-b.png", :alt=>"Follow s4project on Twitter"}

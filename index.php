@@ -29,7 +29,7 @@ function email($u, $d, $l) {
 				var name = '$u';
 				var domain = '$d';
 				var label = '$l';
-		        document.write('<a class=\"email\" href=\"mailto:\" + name + \"@\" + domain + \">');
+		        document.write('<a class=\"email\" href=\"mailto:' + name + '@' + domain + '\">');
 		        document.write(label + '</a>');
 		  // -->
 		  </script>"; 

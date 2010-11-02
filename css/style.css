@@ -183,3 +183,10 @@ ul.greybar {
 #twitter a {
 	border: none;
 }
+
+.tabular table {
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+
