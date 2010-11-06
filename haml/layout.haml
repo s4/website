@@ -8,12 +8,13 @@
     /[if lt IE 9]
       %link{:rel=>"stylesheet", :type=>"text/css", :href=>"css/blueprint/ie.css", :media=>"screen" }
     %link{:rel=>"stylesheet", :type=>"text/css", :href=>"css/style.css"}
+    = render_google_analytics()
   %body
     #header
       .container
         #logo
           %a{:href=>'./'}
-            %img{:src=>'images/mp.png', :width=>"150"}
+            %img{:src=>'images/s4.png'}
         #navbar= render_haml_partial("haml/nav.haml", array(), "haml/cache")
     #wrapper
       #container{:class=>"container"}= render_haml_partial("haml/$page.haml", array(), "haml/cache")

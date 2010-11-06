@@ -44,9 +44,13 @@ a {
 h2 {
 	font-size: 20px;
 	text-shadow: #fff 0px 1px 0;
-	color: #C17878;
+	color: #7E2217;
 }
 
 .searchbutton {
 	margin-left: 10px;
+}
+
+pre, code, tt {
+    color: #7E2217;	
 }

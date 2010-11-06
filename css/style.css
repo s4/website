@@ -24,11 +24,11 @@ a:hover { background: #ccc; color: #000;}
 
 #header {
 	border-bottom:1px solid #ddd;
-	height:120px;
+	height:110px;
 }
 
 #header, #footer {
-	background: none repeat scroll 0 0 #F9F9F9;
+	background: none repeat scroll 0 0 #fff;
 }
 
 #header .container {
@@ -39,7 +39,6 @@ a:hover { background: #ccc; color: #000;}
 	left: 0;
 	position: absolute;
 	top: 25px;
-	width: 233px;
 }
 
 #logo a {
@@ -109,13 +108,14 @@ span.copyright {
 }
 
 span.high {
-	color: #7E2217;
+	color: green;
 }
 
 .secheader {
 	font-size: 20px;
 	text-shadow: #fff 0px 1px 0;
-	color: #C17878;
+/*	color: #C17878; */
+	color: #7E2217; 
 	margin-top: 20px;
 }
 
@@ -202,4 +202,19 @@ input[type="text"], input[type="password"], input.text, input.title, textarea {
     background-color: #fff;
     border: 1px solid #bbb;
 	color: #222;
+}
+
+#notice {
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background: #ddd;
+	color: #777;
+	margin-bottom: 30px;
+	margin-right: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+#notice a {
+	color: #7E2217;
 }

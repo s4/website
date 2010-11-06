@@ -13,6 +13,20 @@
   <link rel='stylesheet' href='$PubDirUrl/css/style.css' type='text/css' />
   <link rel='stylesheet' href='$PubDirUrl/css/wiki.css' type='text/css' />
   <!--HTMLHeader-->
+  <script type='text/javascript'>
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-19490961-1']);
+	  _gaq.push(['_setDomainName', '.s4.io']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>	
 </head>
 <body>
 
@@ -20,7 +34,7 @@
 <div id='header'>
   <div id='wikiheader' class='container'>
     <div id='logo' class='span-8'>
-      <a href='{$ScriptUrl}'><img src='http://s4.io/images/s4.png' alt='$WikiTitle' border='0' width="150"/></a>
+      <a href='http://s4.io'><img src='http://s4.io/images/s4.png' alt='$WikiTitle' border='0'/></a>
     </div>
     <div id='search' class='span-12 last'>
       <form action='{$ScriptUrl}'>
