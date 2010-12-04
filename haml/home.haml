@@ -51,14 +51,14 @@
 #sidebar{:class=>"span-5 last"}
   #download
     #latest_head= "alpha version"
-    #soon{:style=>"margin-top: 20px; font-size: 90%"}= "Binary distribution coming soon. Feel free to <a href='http://github.com/s4/core'>browse code</a> on github and follow us on <a href='http://www.twitter.com/s4project'>twitter</a> for announcements"
-    #latest_link
-      %a{:href=>"http://wiki.s4.io/Tutorials/GettingStarted", :style=>"border: none;"}= "Get Started"
+    /#soon{:style=>"margin-top: 20px; font-size: 90%"}= "Binary distribution coming soon. Feel free to <a href='http://github.com/s4/core'>browse code</a> on github and follow us on <a href='http://www.twitter.com/s4project'>twitter</a> for announcements"
     /#latest_link
-    /  %a{:href=>"http://github.com/s4/core", :style=>"border: none;"}= "s4-core-0.1.tar.gz"
-    /#disclaimer
-    /  %p= "This is an alpha version and should not be used for production. There's no guarantee of backwards-compatibility until the 1.0 release."
-      
+    /  %a{:href=>"http://wiki.s4.io/Tutorials/GettingStarted", :style=>"border: none;"}= "Get Started"
+    #latest_link
+      %a{:href=>"http://s4.github.com/core/target/s4_core-0.2.1.0.tar.gz", :style=>"border: none;", :onClick=>"javascript: pageTracker._trackPageview('/downloads/s4_core-0.2.1.0.tar.gz');"}= "s4_core-0.2.1.0.tar.gz"
+    #disclaimer
+      %p= "This is an alpha version and should not be used for production. There's no guarantee of backwards-compatibility until the 1.0 release."
+    
   #participate
     %h2{:class=>"secheader"}= "participate"
     %ul{:class=>'large greybar'}

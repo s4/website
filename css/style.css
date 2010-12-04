@@ -158,6 +158,8 @@ span.high {
 	margin-top: 10px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+	font-weight: bold;
+	font-size: 80%;
 }
 
 #disclaimer {
