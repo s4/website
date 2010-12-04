@@ -119,6 +119,18 @@ span.high {
 	margin-top: 20px;
 }
 
+.subsecheader {
+	font-size: 14px;
+	text-shadow: #fff 0px 1px 0;
+/*	color: #C17878; */
+	color: #7E2217; 
+	margin-top: 20px;
+}
+
+.subsecheader a {
+	color: #7E2217; 
+}
+
 .horrule {
 	margin-top: 30px;
   	border-top: 1px solid #DDDDDD;
@@ -164,7 +176,7 @@ span.high {
 
 #disclaimer {
 	color: #555;
-	margin-top: 30px;
+	margin-top: 20px;
 	font-size: 80%;
 }
 
