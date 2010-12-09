@@ -1,0 +1,299 @@
+/* globals */
+/* line 2, content/style/style.scss */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 8, content/style/style.scss */
+body {
+  font-family: "Lucida Grande";
+  font-size: 90%;
+  background-color: #efefef;
+  color: #333;
+}
+
+/* line 15, content/style/style.scss */
+a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px dotted #222;
+}
+
+/* line 21, content/style/style.scss */
+a:hover {
+  background: #ccc;
+  color: #000;
+}
+
+/* line 22, content/style/style.scss */
+a:visited {
+  background: #ccc;
+  color: #000;
+}
+
+/* line 24, content/style/style.scss */
+#wrapper {
+  background: url("/images/gradient.png") repeat-x scroll left top #f4f5f5;
+  padding-bottom: 3em;
+  padding-top: 3em;
+}
+
+/* line 30, content/style/style.scss */
+#header {
+  border-bottom: 1px solid #ddd;
+  height: 110px;
+}
+
+/* line 35, content/style/style.scss */
+#header, #footer {
+  background: none repeat scroll 0 0 #fff;
+}
+
+/* line 39, content/style/style.scss */
+#header .container {
+  overflow: visible;
+  position: relative;
+}
+
+/* line 44, content/style/style.scss */
+#header #logo {
+  left: 0;
+  position: absolute;
+  top: 25px;
+}
+
+/* line 50, content/style/style.scss */
+#logo a {
+  border: none;
+}
+
+/* line 54, content/style/style.scss */
+#logo a:hover {
+  text-decoration: none;
+  background: none;
+}
+
+/* line 59, content/style/style.scss */
+#header img {
+  padding: 5px;
+}
+
+/* line 64, content/style/style.scss */
+#footer {
+  border-top: 1px solid #DDDDDD;
+  color: #888888;
+  font-size: 0.75em;
+  padding: 2em;
+  text-align: center;
+}
+
+/* navbar */
+/* line 73, content/style/style.scss */
+#navbar {
+  position: absolute;
+  right: 0;
+  top: 60px;
+}
+
+/* line 79, content/style/style.scss */
+#navbar a {
+  border: none;
+  border-left: 1px solid #DDDDDD;
+  font-size: 1em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #7e2217;
+  background: none;
+}
+
+/* line 89, content/style/style.scss */
+#navbar a.first {
+  border: 0 none;
+}
+
+/* line 93, content/style/style.scss */
+#navbar a:hover {
+  text-decoration: none;
+}
+
+/* line 94, content/style/style.scss */
+#navbar a:visited {
+  text-decoration: none;
+}
+
+/* line 95, content/style/style.scss */
+#navbar a:active {
+  text-decoration: none;
+}
+
+/* line 96, content/style/style.scss */
+#navbar a.active {
+  border-bottom: 3px solid #222;
+}
+
+/* line 100, content/style/style.scss */
+.large {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+/* line 105, content/style/style.scss */
+.small {
+  font-size: 90%;
+  color: #555;
+  line-height: 1.2;
+}
+
+/* line 111, content/style/style.scss */
+span.copyright {
+  text-shadow: 1px 1px 0 #FFFFFF;
+  color: #999;
+}
+
+/* line 116, content/style/style.scss */
+span.high {
+  color: green;
+}
+
+/* line 120, content/style/style.scss */
+.secheader {
+  font-size: 20px;
+  text-shadow: #fff 0px 1px 0;
+  /*	color: #C17878; */
+  color: #7e2217;
+  margin-top: 20px;
+}
+
+/* line 128, content/style/style.scss */
+.subsecheader {
+  font-size: 14px;
+  text-shadow: #fff 0px 1px 0;
+  /*	color: #C17878; */
+  color: #7e2217;
+  margin-top: 20px;
+}
+
+/* line 136, content/style/style.scss */
+.subsecheader a {
+  color: #7e2217;
+}
+
+/* line 140, content/style/style.scss */
+.horrule {
+  margin-top: 30px;
+  border-top: 1px solid #DDDDDD;
+  clear: both;
+}
+
+/* line 146, content/style/style.scss */
+#os_logo {
+  height: 100px;
+  padding: 10px;
+}
+
+/* line 151, content/style/style.scss */
+.sidetext {
+  border-left: 4px solid #ddd;
+  padding-left: 4px;
+}
+
+/* line 156, content/style/style.scss */
+#download {
+  padding: 20px;
+  background: #eee;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px dotted #ddd;
+}
+
+/* line 165, content/style/style.scss */
+#latest_head {
+  font-size: 14px;
+  text-shadow: #fff 0px 1px 0;
+  margin: 0;
+  color: #7e2217;
+}
+
+/* line 172, content/style/style.scss */
+#latest_link {
+  background: #ccc;
+  border: none;
+  padding: 3px;
+  margin-top: 10px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 80%;
+}
+
+/* line 183, content/style/style.scss */
+#disclaimer {
+  color: #555;
+  margin-top: 20px;
+  font-size: 80%;
+}
+
+/* line 189, content/style/style.scss */
+#latest_link a:hover {
+  background: none;
+}
+
+/* line 193, content/style/style.scss */
+#maintainers {
+  margin-top: 20px;
+}
+
+/* line 197, content/style/style.scss */
+.greybar {
+  border-left: 4px solid #ddd;
+  padding-left: 10px;
+}
+
+/* line 202, content/style/style.scss */
+ul.greybar {
+  list-style-type: none;
+}
+
+/* line 206, content/style/style.scss */
+#twitter a {
+  border: none;
+}
+
+/* line 210, content/style/style.scss */
+.tabular table {
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+/* line 215, content/style/style.scss */
+input[type="text"], input[type="password"], input.text, input.title, textarea, select {
+  margin: 1em 0;
+}
+
+/* line 219, content/style/style.scss */
+input[type="text"], input[type="password"], input.text, input.title, textarea {
+  padding: 5px;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #bbb;
+  color: #222;
+}
+
+/* line 227, content/style/style.scss */
+#notice {
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background: #ddd;
+  color: #777;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* line 238, content/style/style.scss */
+#notice a {
+  color: #7E2217;
+}
