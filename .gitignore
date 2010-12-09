@@ -1,3 +1,6 @@
 s4-website.tmproj
 sync.sh
 _old/haml/cache
+content/.sass-cache
+s4-website-nanoc.tmproj
+tmp/dependencies
