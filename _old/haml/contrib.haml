@@ -31,23 +31,25 @@
   %p= "If you are new to git, <a href='http://gitref.org/'>gitref.org</a> has a good tutorial."
   / submission guidelines
   %h2{:class=>"secheader"}= "submission guidelines"
-  %p= "Before you start, send a message on the S4 <a href='http://groups.google.com/group/s4-project/topics'>mailing list</a>, or create an issue in github, describing the proposed changes."
-  %p= "First <a href='http://help.github.com/forking/'>fork</a> the repository containing the code you want to change. Then clone this repository in your development environment."
-  %p= "Make changes to the code, following these conventions:"
-  %ol
-    %li= "All public classes, interfaces, and methods should have informative Javadoc comments. Avoid trivial comments."
-      %ul
-        %li= "BAD: <span class='high'>getCondensedLength()</span>: Gets condensed length."
-        %li= "BETTER: <span class='high'>getCondensedLength()</span>: Number of characters in the string, excluding non alpha-numeric characters."
-    %li= "Code Formatting"  
-      %ul
-        %li= "<b>New</b> Java source files should be formatted according to Sun's conventions with these exceptions: "
-          %ul
-            %li= "Indent four spaces per level"
-            %li= "Use spaces for indentation, not tabs. Tabs tend to break formatting in other editors. Instructions for doing this in eclipse can be found <a href='http://www.cis.upenn.edu/~matuszek/cit594-2004/Pages/eclipse-faq.html#soft_tabs'>here</a>."
-        %li= "If you are editing an <b>existing</b> file, mimic the conventions used in that file. "  
-    %li= "Don't modify formatting, indentation, etc of lines of code that are not part of the change that you are making. This makes code diffs hard to understand."
-      %ul
+  %ul
+    %li= "Before you start contributing to S4, we need you (or the company you work for) to sign our Yahoo! Open Source <a href='https://secure.echosign.com/public/hostedForm?formid=92KRPX6F574X'>Contributor License Agreement</a>."
+    %li= "Then, send a message on the S4 <a href='http://groups.google.com/group/s4-project/topics'>mailing list</a>, or create an issue in github, describing the proposed changes. This lets other developers know your plans and share their thoughts with you."
+    %li= "<a href='http://help.github.com/forking/'>Fork</a> the repository containing the code you want to change. Then clone this repository in your development environment."
+    %li= "Make changes to the code, following these conventions:"
+    %ol
+      %li= "All public classes, interfaces, and methods should have informative Javadoc comments. Avoid trivial comments."
+        %ul
+          %li= "BAD: <span class='high'>getCondensedLength()</span>: Gets condensed length."
+          %li= "BETTER: <span class='high'>getCondensedLength()</span>: Number of characters in the string, excluding non alpha-numeric characters."
+      %li= "Code Formatting"  
+        %ul
+          %li= "<b>New</b> Java source files should be formatted according to Sun's conventions with these exceptions: "
+            %ul
+              %li= "Indent four spaces per level"
+              %li= "Use spaces for indentation, not tabs. Tabs tend to break formatting in other editors. Instructions for doing this in eclipse can be found <a href='http://www.cis.upenn.edu/~matuszek/cit594-2004/Pages/eclipse-faq.html#soft_tabs'>here</a>."
+          %li= "If you are editing an <b>existing</b> file, mimic the conventions used in that file. "  
+      %li= "Don't modify formatting, indentation, etc of lines of code that are not part of the change that you are making. This makes code diffs hard to understand."
+        %ul
         %li= "If you must change formatting in a file, do that as a separate commit."
   / submitting changes
   %h2{:class=>"secheader"}= "submitting changes"
