@@ -1,99 +1,99 @@
-/* line 34, /usr/local/Cellar/ruby/1.9.2-p0/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
+/* line 34, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
 body {
   text-align: center;
 }
-/* line 48, /usr/local/Cellar/ruby/1.9.2-p0/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
+/* line 48, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
 * html body legend {
   margin: 0px -8px 16px 0;
   padding: 0;
 }
-/* line 52, /usr/local/Cellar/ruby/1.9.2-p0/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
+/* line 52, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
 html > body p code {
   *white-space: normal;
 }
 
-/* line 67, /usr/local/Cellar/ruby/1.9.2-p0/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
+/* line 67, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
 .container {
   text-align: left;
 }
 
-/* line 69, /usr/local/Cellar/ruby/1.9.2-p0/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
+/* line 69, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
 sup {
   vertical-align: text-top;
 }
 
-/* line 71, /usr/local/Cellar/ruby/1.9.2-p0/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
+/* line 71, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
 sub {
   vertical-align: text-bottom;
 }
 
-/* line 73, /usr/local/Cellar/ruby/1.9.2-p0/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
+/* line 73, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
 hr {
   margin: -8px auto 11px;
 }
 
-/* line 75, /usr/local/Cellar/ruby/1.9.2-p0/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
+/* line 75, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
 img {
   -ms-interpolation-mode: bicubic;
 }
 
-/* line 77, /usr/local/Cellar/ruby/1.9.2-p0/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
+/* line 77, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
 fieldset {
   padding-top: 0;
 }
 
-/* line 79, /usr/local/Cellar/ruby/1.9.2-p0/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
+/* line 79, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
 textarea {
   overflow: auto;
 }
 
-/* line 82, /usr/local/Cellar/ruby/1.9.2-p0/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
+/* line 82, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
 input.text {
   margin: 0.5em 0;
   background-color: white;
   border: 1px solid #bbbbbb;
 }
-/* line 86, /usr/local/Cellar/ruby/1.9.2-p0/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
+/* line 86, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
 input.text:focus {
   border: 1px solid #666666;
 }
-/* line 88, /usr/local/Cellar/ruby/1.9.2-p0/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
+/* line 88, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
 input.title {
   margin: 0.5em 0;
   background-color: white;
   border: 1px solid #bbbbbb;
 }
-/* line 92, /usr/local/Cellar/ruby/1.9.2-p0/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
+/* line 92, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
 input.title:focus {
   border: 1px solid #666666;
 }
-/* line 94, /usr/local/Cellar/ruby/1.9.2-p0/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
+/* line 94, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
 input.checkbox {
   position: relative;
   top: 0.25em;
 }
-/* line 97, /usr/local/Cellar/ruby/1.9.2-p0/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
+/* line 97, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
 input.radio {
   position: relative;
   top: 0.25em;
 }
-/* line 100, /usr/local/Cellar/ruby/1.9.2-p0/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
+/* line 100, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
 input.button {
   position: relative;
   top: 0.25em;
 }
 
-/* line 103, /usr/local/Cellar/ruby/1.9.2-p0/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
+/* line 103, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
 textarea {
   margin: 0.5em 0;
 }
 
-/* line 105, /usr/local/Cellar/ruby/1.9.2-p0/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
+/* line 105, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
 select {
   margin: 0.5em 0;
 }
 
-/* line 107, /usr/local/Cellar/ruby/1.9.2-p0/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
+/* line 107, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_ie.scss */
 button {
   position: relative;
   top: 0.25em;
