@@ -5,3 +5,4 @@ content/.sass-cache
 s4-website-nanoc.tmproj
 tmp/dependencies
 .sass-cache
+Gemfile.lock

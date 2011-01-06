@@ -4,7 +4,7 @@ title: Distributed Stream Computing Platform
 #main{:class=>"span-18 colborder"}
   #about{:class=>"span-18 last"}
 
-    #notice{:class=>"span-18 last"}= "<span style='font-weight: bold; color:maroon'>Update:</span> Documentation has moved to <a href='http://docs.s4.io'>docs.s4.io</a>. Please update your bookmarks."
+    #notice{:class=>"span-17 last"}= "<span style='font-weight: bold; color:maroon'>Update:</span> S4 <a href='http://labs.yahoo.com/node/476'>paper</a> presented at <a href='http://www.ornl.gov/sci/knowledgediscovery/CloudComputing/KDCloud-10'>KDDCloud 2010</a>."
     %p{:class=>'large'}= "S4 is a <span class='high'>general-purpose</span>, <span class='high'>distributed</span>, <span class='high'>scalable</span>, partially <span class='high'>fault-tolerant</span>, <span class='high'>pluggable</span> platform that allows programmers to easily develop applications for processing continuous unbounded streams of data."
 
     .horrule
@@ -67,6 +67,8 @@ title: Distributed Stream Computing Platform
       %li= "<a href='?p=contrib'>Contribute</a>"
       %li= "Join the <a href='http://groups.google.com/group/s4-project/topics'>forum</a>"
       
-  #twitter
-    %a{:href=>"http://www.twitter.com/s4project"}
-      %img{:src=>"http://twitter-badges.s3.amazonaws.com/follow_us-b.png", :alt=>"Follow s4project on Twitter"}
+  /#twitter
+  /  %a{:href=>"http://www.twitter.com/s4project"}
+  /    %img{:src=>"http://twitter-badges.s3.amazonaws.com/follow_us-b.png", :alt=>"Follow s4project on Twitter"}
+  %h2{:class=>"secheader"}= "recent tweets"
+  #twitter= twitter_module()

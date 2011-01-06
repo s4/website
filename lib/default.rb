@@ -28,3 +28,38 @@ def google_analytics(account_id, domain)
   </script>
   "
 end
+
+
+def twitter_module()
+  "<script src='http://widgets.twimg.com/j/2/widget.js'></script>
+  <script>
+  new TWTR.Widget({
+    version: 2,
+    type: 'profile',
+    rpp: 4,
+    interval: 6000,
+    width: 190,
+    height: 300,
+    theme: {
+      shell: {
+        background: '#e6e6e6',
+        color: '#707070'
+      },
+      tweets: {
+        background: '#ffffff',
+        color: '#333333',
+        links: '#7E2217'
+      }
+    },
+    features: {
+      scrollbar: false,
+      loop: false,
+      live: false,
+      hashtags: true,
+      timestamp: true,
+      avatars: false,
+      behavior: 'all'
+    }
+  }).render().setUser('s4project').start();
+  </script>"
+end

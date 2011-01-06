@@ -8,13 +8,14 @@
     /[if lt IE 9]
       %link{:rel=>"stylesheet", :type=>"text/css", :href=>"/style/ie.css", :media=>"screen" }
     %link{:rel=>"stylesheet", :type=>"text/css", :href=>"/style/style.css"}
+    %link{:rel=>"stylesheet", :type=>"text/css", :href=>"/style/nav.css"}
     = google_analytics(@config[:google_analytics_account_id], @config[:google_analytics_domain])
   %body
     #header
       .container
         #logo
           %a{:href=>''}
-            %img{:src=>'/images/s4.png'}
+            %img{:src=>'/images/s4_test.png'}
         #navbar= render 'nav'
     #wrapper
       #container{:class=>"container"}= yield

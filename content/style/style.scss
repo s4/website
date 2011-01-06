@@ -4,6 +4,9 @@
 $bg_body: #efefef;
 $bg_content: #f4f5f5;
 $sec_header: #7E2217;
+$grad_start: #fafafa;
+$grad_end: #dfdfdf;
+$dark_bg: #dfdfdf;
 
 body {
     font-family: 	"Lucida Grande";
@@ -22,18 +25,29 @@ a:hover { background: #ccc; color: #000;}
 a:visited { background: #ccc; color: #000;}
 
 #wrapper {
-	background: url("/images/gradient.png") repeat-x scroll left top $bg_content;
+	// background: url("/images/gradient.png") repeat-x scroll left top $bg_content;
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+	background: #fff;
 	padding-bottom: 3em;
 	padding-top: 3em;
 }
 
 #header {
-	border-bottom:1px solid #ddd;
+	background: $grad_start;
+	background: -webkit-gradient(linear, left top, left bottom, from($grad_start), to($grad_end)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  $grad_start,  $grad_end); /* for firefox 3.6+ */
 	height:110px;
 }
 
-#header, #footer {
-	background: none repeat scroll 0 0 #fff;
+#footer {
+	background: $grad_start;
+	background: -webkit-gradient(linear, left top, left bottom, from($grad_end), to($grad_start)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  $grad_end,  $grad_start); /* for firefox 3.6+ */
+	color:#555;
+	font-size:1em;
+	padding:2em;
+	text-align:center;
 }
 
 #header .container {
@@ -60,16 +74,8 @@ a:visited { background: #ccc; color: #000;}
 	padding: 5px;
 }
 
-
-#footer {
-	border-top:1px solid #DDDDDD;
-	color:#888888;
-	font-size:0.75em;
-	padding:2em;
-	text-align:center;
-}
-
 /* navbar */
+/*
 #navbar {
 	position: absolute;
 	right: 0;
@@ -97,6 +103,8 @@ a:visited { background: #ccc; color: #000;}
    border-bottom: 3px solid #222;
 }
 
+*/
+
 .large {
 	font-size: 1.2em;
 	line-height:1.5;
@@ -114,7 +122,7 @@ span.copyright {
 }
 
 span.high {
-	color: green;
+	//color: green;
 }
 
 .secheader {
@@ -155,9 +163,9 @@ span.high {
 
 #download {
 	padding: 20px;
-	background: #eee;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
+	background: $dark_bg;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 	text-align: center;
 	border: 1px dotted #ddd;
 }
@@ -170,7 +178,7 @@ span.high {
 }
 
 #latest_link {
-	background: #ccc;
+	background: #fefefe;
 	border: none;
 	padding: 3px;
 	margin-top: 10px;
@@ -178,6 +186,8 @@ span.high {
 	border-radius: 5px;
 	font-weight: bold;
 	font-size: 80%;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
 }
 
 #disclaimer {
@@ -225,14 +235,16 @@ input[type="text"], input[type="password"], input.text, input.title, textarea {
 }
 
 #notice {
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	background: #ddd;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: $dark_bg;
 	color: #777;
 	margin-bottom: 30px;
 	margin-right: 10px;
 	padding: 10px;
 	text-align: center;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
 }
 
 #notice a {
