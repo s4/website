@@ -250,17 +250,36 @@ ul.greybar {
 }
 
 /* line 220, content/style/style.scss */
+#twitter a:hover {
+  border: none;
+  background: inherit;
+  text-decoration: none;
+}
+
+/* line 221, content/style/style.scss */
+#twitter a:visited {
+  border: none;
+  background: inherit;
+}
+
+/* line 222, content/style/style.scss */
+#twitter a:active {
+  border: none;
+  background: inherit;
+}
+
+/* line 224, content/style/style.scss */
 .tabular table {
   background: #fff;
   border: 1px solid #ddd;
 }
 
-/* line 225, content/style/style.scss */
+/* line 229, content/style/style.scss */
 input[type="text"], input[type="password"], input.text, input.title, textarea, select {
   margin: 1em 0;
 }
 
-/* line 229, content/style/style.scss */
+/* line 233, content/style/style.scss */
 input[type="text"], input[type="password"], input.text, input.title, textarea {
   padding: 5px;
   font-size: 14px;
@@ -269,7 +288,7 @@ input[type="text"], input[type="password"], input.text, input.title, textarea {
   color: #222;
 }
 
-/* line 237, content/style/style.scss */
+/* line 241, content/style/style.scss */
 #notice {
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -283,7 +302,7 @@ input[type="text"], input[type="password"], input.text, input.title, textarea {
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
 }
 
-/* line 250, content/style/style.scss */
+/* line 254, content/style/style.scss */
 #notice a {
   color: #7E2217;
 }

@@ -217,6 +217,10 @@ ul.greybar {
 	border: none;
 }
 
+#twitter a:hover { border: none; background: inherit; text-decoration: none; }
+#twitter a:visited { border: none; background: inherit; }
+#twitter a:active { border: none; background: inherit; }
+
 .tabular table {
 	background: #fff;
 	border: 1px solid #ddd;
