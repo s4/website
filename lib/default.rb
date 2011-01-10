@@ -29,8 +29,11 @@ def google_analytics(account_id, domain)
   "
 end
 
+def google_analytics_event(category, action, label)
+  "_gaq.push(['_trackEvent', '#{category}', '#{action}', '#{label}']);"
+end
 
-def twitter_module()
+def twitter_widget()
   "<script src='http://widgets.twimg.com/j/2/widget.js'></script>
   <script>
   new TWTR.Widget({

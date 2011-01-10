@@ -213,13 +213,16 @@ ul.greybar {
 	list-style-type: none;
 }
 
-#twitter a {
-	border: none;
+#twitter_widget {
+	a {	border: none;}
+	a:hover { border: none; background: inherit; text-decoration: none; }
+	a:visited { border: none; background: inherit; }
+	a:active { border: none; background: inherit; }
 }
 
-#twitter a:hover { border: none; background: inherit; text-decoration: none; }
-#twitter a:visited { border: none; background: inherit; }
-#twitter a:active { border: none; background: inherit; }
+#twitter_follow {
+	a {	border: none;}
+}
 
 .tabular table {
 	background: #fff;

@@ -244,42 +244,44 @@ ul.greybar {
   list-style-type: none;
 }
 
-/* line 216, content/style/style.scss */
-#twitter a {
+/* line 217, content/style/style.scss */
+#twitter_widget a {
   border: none;
 }
-
-/* line 220, content/style/style.scss */
-#twitter a:hover {
+/* line 218, content/style/style.scss */
+#twitter_widget a:hover {
   border: none;
   background: inherit;
   text-decoration: none;
 }
-
-/* line 221, content/style/style.scss */
-#twitter a:visited {
+/* line 219, content/style/style.scss */
+#twitter_widget a:visited {
   border: none;
   background: inherit;
 }
-
-/* line 222, content/style/style.scss */
-#twitter a:active {
+/* line 220, content/style/style.scss */
+#twitter_widget a:active {
   border: none;
   background: inherit;
 }
 
 /* line 224, content/style/style.scss */
+#twitter_follow a {
+  border: none;
+}
+
+/* line 227, content/style/style.scss */
 .tabular table {
   background: #fff;
   border: 1px solid #ddd;
 }
 
-/* line 229, content/style/style.scss */
+/* line 232, content/style/style.scss */
 input[type="text"], input[type="password"], input.text, input.title, textarea, select {
   margin: 1em 0;
 }
 
-/* line 233, content/style/style.scss */
+/* line 236, content/style/style.scss */
 input[type="text"], input[type="password"], input.text, input.title, textarea {
   padding: 5px;
   font-size: 14px;
@@ -288,7 +290,7 @@ input[type="text"], input[type="password"], input.text, input.title, textarea {
   color: #222;
 }
 
-/* line 241, content/style/style.scss */
+/* line 244, content/style/style.scss */
 #notice {
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -302,7 +304,7 @@ input[type="text"], input[type="password"], input.text, input.title, textarea {
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
 }
 
-/* line 254, content/style/style.scss */
+/* line 257, content/style/style.scss */
 #notice a {
   color: #7E2217;
 }

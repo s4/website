@@ -4,7 +4,7 @@ title: Distributed Stream Computing Platform
 #main{:class=>"span-18 colborder"}
   #about{:class=>"span-18 last"}
 
-    #notice{:class=>"span-17 last"}= "<span style='font-weight: bold; color:maroon'>Update:</span> S4 <a href='http://labs.yahoo.com/node/476'>paper</a> presented at <a href='http://www.ornl.gov/sci/knowledgediscovery/CloudComputing/KDCloud-10'>KDDCloud 2010</a>."
+    #notice{:class=>"span-17 last"}= "<span style='font-weight: bold; color:maroon'>Update:</span> S4 <a href='http://labs.yahoo.com/node/476' onClick=\"#{google_analytics_event("External", "Yahoo", "http://labs.yahoo.com/node/476")}\">paper</a> presented at <a href='http://www.ornl.gov/sci/knowledgediscovery/CloudComputing/KDCloud-10'  onClick=\"#{google_analytics_event("External", "KDCloud", "http://www.ornl.gov/sci/knowledgediscovery/CloudComputing/KDCloud-10")}\">KDDCloud 2010</a>."
     %p{:class=>'large'}= "S4 is a <span class='high'>general-purpose</span>, <span class='high'>distributed</span>, <span class='high'>scalable</span>, partially <span class='high'>fault-tolerant</span>, <span class='high'>pluggable</span> platform that allows programmers to easily develop applications for processing continuous unbounded streams of data."
 
     .horrule
@@ -56,7 +56,7 @@ title: Distributed Stream Computing Platform
     #latest_head= "alpha version"
     /#soon{:style=>"margin-top: 20px; font-size: 90%"}= "Binary distribution coming soon. Feel free to <a href='http://github.com/s4/core'>browse code</a> on github and follow us on <a href='http://www.twitter.com/s4project'>twitter</a> for announcements"
     #latest_link
-      %a{:href=>"http://s4.github.com/core/target/s4_core-0.2.1.0.tar.gz", :style=>"border: none;", :onClick=>"_gaq.push(['_trackEvent('Downloads', 'Binary Download', 's4_core-0.2.1.0.tar.gz')'])"}= "s4_core-0.2.1.0.tar.gz"
+      %a{:href=>"http://s4.github.com/core/target/s4_core-0.2.1.0.tar.gz", :style=>"border: none;", :onClick=> google_analytics_event("Downloads", "Binary", "s4_core-0.2.1.0.tar.gz")}= "s4_core-0.2.1.0.tar.gz"
     .subsecheader
       %a{:href=>"http://wiki.s4.io/Tutorials/GettingStarted", :style=>"border: none; font-weight: bold;"}= "Get Started"
     #disclaimer
@@ -65,10 +65,10 @@ title: Distributed Stream Computing Platform
     %h2{:class=>"secheader"}= "participate"
     %ul{:class=>'large greybar'}
       %li= "<a href='?p=contrib'>Contribute</a>"
-      %li= "Join the <a href='http://groups.google.com/group/s4-project/topics'>forum</a>"
+      %li= "Join the <a href='http://groups.google.com/group/s4-project/topics' onClick=\"#{google_analytics_event("External", "Forum", "Index - http://groups.google.com/group/s4-project/topics")}\">forum</a>"
       
-  /#twitter
-  /  %a{:href=>"http://www.twitter.com/s4project"}
-  /    %img{:src=>"http://twitter-badges.s3.amazonaws.com/follow_us-b.png", :alt=>"Follow s4project on Twitter"}
   %h2{:class=>"secheader"}= "recent tweets"
-  #twitter= twitter_module()
+  #twitter_widget= twitter_widget()
+/  #twitter_follow{:style=>"position: absolute; bottom: 0px;"}
+/    %a{:href=>"http://www.twitter.com/s4project", :onClick=> google_analytics_event("External", "Twitter", "Index - http://www.twitter.com/s4project")}
+/      %img{:src=>"http://twitter-badges.s3.amazonaws.com/follow_bird_us-c.png", :alt=>"Follow s4project on Twitter"}
