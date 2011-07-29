@@ -50,15 +50,14 @@ title: Distributed Stream Computing Platform
         %h4{:class=>"subsecheader"}= "partial fault-tolerance"
         %p= "When a server in the cluster fails, a stand-by server is automatically activated to take over the tasks. The state of the server may be lost but quickly recovered from new input data."
 
-
 #sidebar{:class=>"span-5 last"}
   #download
-    #latest_head= "alpha version"
-    /#soon{:style=>"margin-top: 20px; font-size: 90%"}= "Binary distribution coming soon. Feel free to <a href='http://github.com/s4/core'>browse code</a> on github and follow us on <a href='http://www.twitter.com/s4project'>twitter</a> for announcements"
+    #latest_head
+      %span= "alpha version"
+      %br
+      %span{:style=>"font-size: small;"}= "v0.3.0"
     #latest_link
-      %a{:href=>"http://s4.github.com/core/target/s4_core-0.2.1.0.tar.gz", :style=>"border: none;", :onClick=> google_analytics_event("Downloads", "Binary", "s4_core-0.2.1.0.tar.gz")}= "s4_core-0.2.1.0.tar.gz"
-    .subsecheader
-      %a{:href=>"http://docs.s4.io/tutorials/getting_started.html", :style=>"border: none; font-weight: bold;"}= "Get Started"
+      %a{:href=>"http://docs.s4.io/tutorials/getting_started.html", :style=>"border: none;"}= "Get Started"
     #disclaimer
       %p= "This is an alpha version and should not be used for production. There's no guarantee of backwards-compatibility until the 1.0 release."
   #participate
