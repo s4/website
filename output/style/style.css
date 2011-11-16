@@ -295,16 +295,16 @@ input[type="text"], input[type="password"], input.text, input.title, textarea {
   -moz-border-radius: 3px;
   border-radius: 3px;
   background: #dfdfdf;
-  color: #777;
+  color: #444;
   margin-bottom: 30px;
   margin-right: 10px;
   padding: 10px;
-  text-align: center;
+  text-align: left;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
 }
 
-/* line 257, content/style/style.scss */
+/* line 258, content/style/style.scss */
 #notice a {
   color: #7E2217;
 }

@@ -4,7 +4,12 @@ title: Distributed Stream Computing Platform
 #main{:class=>"span-18 colborder"}
   #about{:class=>"span-18 last"}
 
-    #notice{:class=>"span-17 last"}= "<span style='font-weight: bold; color:maroon'>Update:</span> S4 has been accepted into the <a href='http://incubator.apache.org/projects/s4.html'>Apache Incubator</a> program. <br>Forums have moved to the <a href='https://cwiki.apache.org/confluence/display/S4/S4+Apache+mailing+lists'>Apache mailing list</a>."
+    #notice{:class=>"span-17 last"}
+      #notice_text{:class=>"span-11"}= "S4 has been accepted into the <a style='font-weight: bold; color:maroon' href='http://incubator.apache.org/projects/s4.html'>Apache Incubator</a> program. Forums have moved to the <a href='https://cwiki.apache.org/confluence/display/S4/S4+Apache+mailing+lists'>Apache mailing list</a>."
+      #notice_image{:class=>"span-6 last"}
+        %a{:href=>"http://incubator.apache.org/projects/s4.html"}
+          %img{:src=>"http://incubator.apache.org/images/apache-incubator-logo.png"}
+        
     %p{:class=>'large'}= "S4 is a <span class='high'>general-purpose</span>, <span class='high'>distributed</span>, <span class='high'>scalable</span>, partially <span class='high'>fault-tolerant</span>, <span class='high'>pluggable</span> platform that allows programmers to easily develop applications for processing continuous unbounded streams of data."
 
     .horrule
