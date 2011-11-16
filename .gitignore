@@ -6,3 +6,10 @@ s4-website-nanoc.tmproj
 tmp/dependencies
 .sass-cache
 Gemfile.lock
+tmp/
+
+# Backup files
+*~
+
+# Misc hidden files
+.DS_Store 
